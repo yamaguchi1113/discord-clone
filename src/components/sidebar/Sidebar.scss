@@ -1,0 +1,38 @@
+.sidebar{
+    display: flex;
+    flex: 35%;
+    height: 100vh;
+    background-color: #33363d; //あとでhomeに移動する
+
+    .sidebarLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #111113;
+        padding: 15px 7px;
+        border-right: #0f44c7 1px solid;
+
+        .serverIcon{
+            width: 45px;
+            height: 45px;
+            background-color: #33363d;
+            border-radius: 15px;
+            border: #898996 1px solid;
+            cursor: pointer;
+            &:hover{
+                background-color: #0f44c7;
+            }
+            margin-top: 12px;
+            img{
+                width: 45px;
+                height: 45px;
+                border-radius: 9px;         
+            }
+        }
+    }
+    .sidebarRight {
+        background-color: #2b2d33;
+    }
+
+    
+}
